@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,17 +11,79 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.form-container {
+  background: #3a3f4b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.calc-button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.calc-button:hover {
+  background-color: #4fa8d3;
+}
+
+.resultado {
+  background: #3a3f4b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.tabela-imc {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.tabela-imc table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela-imc th, .tabela-imc td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tabela-imc th {
+  background-color: #61dafb;
+  color: #282c34;
+}
+
+.destaque {
+  background-color: #61dafb;
+  color: #282c34;
+  font-weight: bold;
 }
